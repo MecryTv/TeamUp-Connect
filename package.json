@@ -1,0 +1,34 @@
+{
+  "name": "teamup-connect",
+  "version": "1.0.0",
+  "description": "TeamUp Connect Is a Discord Bot for searching Teams & Players",
+  "keywords": [
+    "TeamUp",
+    "MecryTv",
+    "JavaScript",
+    "Discord.JS",
+    "Commandkit",
+    "LFT",
+    "LFP"
+  ],
+  "homepage": "https://github.com/MecryTv/TeamUp-Connect#readme",
+  "bugs": {
+    "url": "https://github.com/MecryTv/TeamUp-Connect/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MecryTv/TeamUp-Connect.git"
+  },
+  "license": "MIT",
+  "author": "MecryTv",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "commandkit": "^0.1.10",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0"
+  }
+}
